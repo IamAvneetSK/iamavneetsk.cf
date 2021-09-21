@@ -1,8 +1,10 @@
 - item: About
-  url: about/
-- item: Blog
-  url: ""
-- item: Category
-  url: categories
-- item: Tag
-  url: tags
+  url: "https://iamavneetsk.cf/about/"
+- item: Instagram
+  url: "https://www.instagram.com/iamavneetsk"
+- item: Facebook
+  url: "https://www.facebook.com/iamavneetsk"
+- item: Twitter
+  url: "https://twitter.com/iamavneetsk"
+- item: Twitch
+  url: "https://twitch.tv/iamavneetsk"
