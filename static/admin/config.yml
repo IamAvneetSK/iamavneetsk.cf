@@ -16,15 +16,13 @@ collections: # A list of collections the CMS should be able to edit
 
     description: >
 
-      The description is a great place for tone setting, high level information, and editing
-
-      guidelines that are specific to a collection.
+      The Content Management Place. Make sure to create content from here. it will be auto-published.
 
     folder: 'content/post'
 
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{slug}}-{{year}}-{{month}}-{{day}}'
 
-    summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
+    summary: '{{title}} -- {{body}}'
 
     create: true # Allow users to create new documents in this collection
 
@@ -72,13 +70,11 @@ collections: # A list of collections the CMS should be able to edit
 
           name: 'date',
 
-          widget: 'datetime',
+          widget: 'date',
 
           date_format: 'YYYY-MM-DD',
 
-          time_format: 'HH:mm',
-
-          format: 'YYYY-MM-DD HH:mm',
+          format: 'YYYY-MM-DD',
 
         }
 
