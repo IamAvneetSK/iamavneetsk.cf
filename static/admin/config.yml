@@ -70,9 +70,11 @@ collections: # A list of collections the CMS should be able to edit
 
           name: 'date',
 
-          widget: 'date',
+          widget: 'datetime',
 
           date_format: 'YYYY-MM-DD',
+          
+          time_format: 'HH:mm',
 
           format: 'YYYY-MM-DD',
 
