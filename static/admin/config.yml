@@ -20,7 +20,7 @@ collections: # A list of collections the CMS should be able to edit
 
       guidelines that are specific to a collection.
 
-    folder: '_posts'
+    folder: 'content/post'
 
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
 
@@ -124,7 +124,7 @@ collections: # A list of collections the CMS should be able to edit
 
         label: 'Site Settings'
 
-        file: '_data/settings.json'
+        file: 'data/settings.json'
 
         description: 'General Site Settings'
 
@@ -174,7 +174,7 @@ collections: # A list of collections the CMS should be able to edit
 
         label: 'Authors'
 
-        file: '_data/authors.yml'
+        file: 'data/authors.yml'
 
         description: 'Author descriptions'
 
