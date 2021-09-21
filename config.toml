@@ -1,8 +1,8 @@
-baseurl = "https://example.com/"
-title = "Newsroom"
+baseurl = "https://iamavneetsk.cf/"
+title = "Avneet Singh"
 theme = "newsroom"
-author = "Weru"
-copyright = "Copyright © 2019, Weru and the Hugo Authors; all rights reserved."
+author = "IamAvneetSK"
+copyright = "Copyright © 2021, IamAvneetSK; All Rights Reserved."
 canonifyurls = true
 paginate = 6
 params = { }
