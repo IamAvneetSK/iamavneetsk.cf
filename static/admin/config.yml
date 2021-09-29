@@ -92,19 +92,19 @@ collections: # A list of collections the CMS should be able to edit
 
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
 
-  - name: 'pages' # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: 'pages' 
 
-    label: 'Pages' # Used in the UI
+    label: 'Pages' 
 
-    label_singular: 'Post' # Used in the UI, ie: "New Page"
+    label_singular: 'Page' # Used in the UI, ie: "New Page"
 
-    description: >
-      The Content Management Place. Make sure to create content from here. it will be auto-published.
+    description: Main page for editing pages.
+     
     folder: 'content'
 
     slug: '{{slug}}'
 
-    summary: '{{title}}'
+    summary: '{{title}}-{{body}}'
 
     create: true # Allow users to create new documents in this collection
 
@@ -146,22 +146,6 @@ collections: # A list of collections the CMS should be able to edit
 
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
 
-      - {
-
-          label: 'Publish Date',
-
-          name: 'date',
-
-          widget: 'datetime',
-
-          date_format: 'YYYY-MM-DD',
-          
-          time_format: 'HH:mm',
-
-          format: 'YYYY-MM-DD',
-
-        }
-
       - label: 'Cover Image'
 
         name: 'image'
@@ -172,7 +156,7 @@ collections: # A list of collections the CMS should be able to edit
 
         tagname: ''
 
-      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+      - { label: 'Page Post Content', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
 
   - name: 'settings'
 
