@@ -96,17 +96,83 @@ collections: # A list of collections the CMS should be able to edit
 
     label: 'Pages' # Used in the UI
 
+    label_singular: 'Post' # Used in the UI, ie: "New Page"
+
+    description: >
+      The Content Management Place. Make sure to create content from here. it will be auto-published.
     folder: 'content'
-    
+
     slug: '{{slug}}'
 
+    summary: '{{title}}'
+
     create: true # Allow users to create new documents in this collection
+
+    view_filters:
+
+      - label: Posts With Index
+
+        field: title
+
+        pattern: 'This is post #'
+
+      - label: Posts Without Index
+
+        field: title
+
+        pattern: front matter post
+
+      - label: Drafts
+
+        field: draft
+
+        pattern: true
+
+    view_groups:
+
+      - label: Year
+
+        field: date
+
+        pattern: \d{4}
+
+      - label: Drafts
+
+        field: draft
 
     fields: # The fields each document in this collection have
 
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
 
-      - { label: 'Content', name: 'body', widget: 'markdown' }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
+
+      - {
+
+          label: 'Publish Date',
+
+          name: 'date',
+
+          widget: 'datetime',
+
+          date_format: 'YYYY-MM-DD',
+          
+          time_format: 'HH:mm',
+
+          format: 'YYYY-MM-DD',
+
+        }
+
+      - label: 'Cover Image'
+
+        name: 'image'
+
+        widget: 'image'
+
+        required: false
+
+        tagname: ''
+
+      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
 
   - name: 'settings'
 
