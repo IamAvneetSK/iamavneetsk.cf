@@ -8,11 +8,11 @@ image: https://i.pinimg.com/originals/08/7b/44/087b445290cdf756500d4c742ded4a34.
 
 Welcome to my website.
 
-I am currently updating many things as I come from non-coding background and now creating this website.
+I am currently updating many things as I come from a non-coding background and now creating this website.
 
 Check out my work
 
-### Tech Milestone : [https://www.techmilestone.cf`](https://www.techmilestone.cf)``
+### Tech Milestone: [https://www.techmilestone.cf`](https://www.techmilestone.cf)``
 
 ### The Tech View: <https://www.thetechview.cf>``
 
