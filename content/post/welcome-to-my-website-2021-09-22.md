@@ -12,8 +12,8 @@ I am currently updating many things as I come from a non-coding background and n
 
 Check out my work
 
-### Tech Milestone: [https://www.techmilestone.cf`](https://www.techmilestone.cf)``
+### Tech Milestone: [https://www.techmilestone.cf](https://www.techmilestone.cf)
 
-### The Tech View: <https://www.thetechview.cf>``
+### The Tech View: <https://www.thetechview.cf>
 
-### TMOG: [https://tmog.ml`](https://tmog.ml)``
+### TMOG: [https://tmog.ml](https://tmog.ml)
