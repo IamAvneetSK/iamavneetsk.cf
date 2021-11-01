@@ -1,4 +1,4 @@
-baseurl = "https://iamavneetsk.cf/"
+baseurl = "https://web.iamavneetsk.cf/"
 title = "Avneet Singh"
 theme = "newsroom"
 author = "IamAvneetSK"
@@ -7,7 +7,7 @@ canonifyurls = true
 paginate = 6
 params = { }
 themesDir = "themes"
-baseURL = "https://iamavneetsk.cf"
+baseURL = "https://web.iamavneetsk.cf"
 publishDir = "public"
 
 [markup.goldmark.renderer]
