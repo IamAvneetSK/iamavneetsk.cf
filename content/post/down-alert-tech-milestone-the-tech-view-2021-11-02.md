@@ -1,7 +1,18 @@
 ---
-title: Down Alert! Tech Milestone & The Tech View
+title: Maintenance Notice! Tech Milestone & The Tech View
 draft: false
-date: 2021-11-02
-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFL0hObgUmeTYG9XzAuKraxZiEqRe1QyCMilho58svo7f5YLQwAr5oOZoFDyswFNgrby0&usqp=CAU
+date: 2022-01-10
+image: https://www.softwaresuggest.com/blog/wp-content/uploads/2019/03/maintenance-FB.png
 ---
-The Websites of Tech Milestone, The Tech View are facing an error and are currently down!. Please be patient as we are working on getting them back as soon as possible.
+Due to some attacks on our backend servers, the servers went down and caused Error messages to a lot of users. So we are in process of migrating our servers and backend data to more secure and static servers at [Gatsbyjs.com](gatsbyjs.com) 
+
+We value your experience and will try our best to complete the process as smoothly as possible for our end users. We promise to make a huge announcement for the same on our social media channels. 
+
+We value and respect your paitence. 
+
+We will be updating you guys here.
+
+Regards,
+### Avneet Singh
+###### Founder
+##### Tech Milestone
