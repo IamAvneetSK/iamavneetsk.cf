@@ -7,7 +7,6 @@ canonifyurls = true
 paginate = 6
 params = { }
 themesDir = "themes"
-baseURL = "https://web.iamavneetsk.cf"
 publishDir = "public"
 
 [markup.goldmark.renderer]
